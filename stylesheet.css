@@ -1,0 +1,226 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header_area {
+  width: 1170px;
+  line-height: 65px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  padding-top :20px;
+  width: 124px;
+}
+
+.login {
+  float: right;
+  color: white;
+  padding: 0 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.main {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+
+.main_container {
+  margin: 0 auto;
+  width: 1170px;
+  padding: 0 15px;
+}
+
+.main_sentense h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.main_sentense h1, .main_sentense p {
+  opacity: 0.7;
+}
+
+.regist_area {
+  padding-top: 30px;
+}
+
+.regist_area p {
+  padding: 15px;
+}
+
+.regist_btn {
+  padding: 8px 24px;
+  margin: 0 10px 0 0;
+  border-radius: 4px;
+  opacity: 0.8;
+  display: inline-block;
+  color: white;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+.regist_btn:hover {
+  opacity: 1;
+}
+
+.new_regist {
+  background-color: #239b76;
+}
+
+.facebook_regist {
+  background-color: #3b5998;
+}
+
+.twitter_regist {
+  background-color: #55acee;
+}
+
+.detail {
+  background-color: #f7f7f7;
+  height: 580px;
+}
+
+.detail_container {
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 1170px;
+  text-align: center;
+}
+
+.detail_title h2 {
+  text-align: center;
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.course_list {
+  padding-top: 50px;
+}
+
+.course {
+  width: 25%;
+  float: left;
+}
+
+.course_logo {
+  position: relative;
+}
+
+
+.course_logo p {
+  position: absolute;
+  top: 90px;
+  color: white;
+  width: 100%;
+  font-weight: normal;
+  
+ }
+ 
+ .course p.course_sentense {
+   padding-top: 15px;
+   font-size: 13px;
+   color: #b3aeb5;
+   width: 80%;
+   display: inline-block;
+ }
+ 
+ .message {
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+ 
+ .message_container {
+   margin: 0 auto;
+   width: 1170px;
+ }
+ 
+ .message h2 {
+   font-weight: normal;
+   color: #5f5d60;
+ }
+ 
+ .message h3 {
+   color: #5f5d60;
+   padding-bottom: 50px;
+ }
+ 
+ .message #develop_btn {
+   padding: 15px 40px;
+   border-radius: 4px;
+   background-color: #5dca88;
+   box-shadow: 0px 7px #1a7940;
+   opacity: 0.8;
+   color: white;
+   cursor: pointer;
+ }
+ 
+ .message #develop_btn:active {
+   box-shadow: none;
+   position: relative;
+   top: 7px;
+ }
+
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #b3aeb5;
+  }
+
+  footer .footer_container {
+   margin: 0 auto;
+   width: 1170px;
+  }
+ 
+   footer hr {
+    border: 1px solid #eee;
+  }
+  
+ footer img {
+   width: 124px;
+ }
+ 
+ footer p {
+   font-size: 12px;
+ }
